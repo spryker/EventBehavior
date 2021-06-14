@@ -22,11 +22,19 @@ interface EventBehaviorConstants
 
     /**
      * Specification:
-     * - Chunck size for behavior events.
+     * - Chunk size for behavior events.
      *
      * @api
      */
     public const EVENT_BEHAVIOR_CHUNK_SIZE = 'EVENT_BEHAVIOR_CHUNK_SIZE';
+
+    /**
+     * Specification:
+     * - Chunk size for trigger events.
+     *
+     * @api
+     */
+    public const TRIGGER_CHUNK_SIZE = 'EVENT_BEHAVIOR:TRIGGER_CHUNK_SIZE';
 
     /**
      * Specification:
